@@ -1,27 +1,27 @@
 @use "../01-settings/variables" as *;
 
 .c-input {
-  background-color: $white;
+  background-color: $primary-light-color;
   border: none;
   border-radius: $border-radius;
-  font-size: $font-size-6;
-  font-style: italic;
+  color: $white;
+  font-size: $font-size-8;
   font-weight: 700;
-  line-height: $line-height-sm;
   outline: none;
-  padding: 1rem 1.25rem;
+  padding: 1rem 2.5rem;
+  text-transform: uppercase;
 
   &::placeholder {
-    color: $gray-light;
+    color: $white;
   }
 
   &::-moz-placeholder {
-    color: $gray-light;
+    color: $white;
     opacity: 1;
   }
 
   &:-ms-placeholder {
-    color: $gray-light;
+    color: $white;
   }
 
   &--newsletter {
