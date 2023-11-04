@@ -4,19 +4,26 @@
   border: none;
   border-radius: $border-radius;
   display: inline-block;
-  font-size: $font-size-6;
+  font-size: $font-size-8;
   font-weight: 700;
   line-height: $line-height-sm;
-  padding: 1rem 1.25rem;
+  padding: 1rem 1.5rem;
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
 
   &:hover {
+    color: $white;
     text-decoration: none;
   }
 
-  &__icon {
-    margin-left: 0.5rem;
+  &--primary {
+    background-color: $primary-color;
+    color: $white;
+
+    &:hover {
+      background-color: lighten($primary-color, 15%);
+      color: $white;
+    }
   }
 
   &--accent {
@@ -24,39 +31,25 @@
     color: $white;
 
     &:hover {
-      background-color: darken($orange-accent, 15%);
+      background-color: lighten($orange-accent, 15%);
       color: $white;
     }
   }
 
   &--light {
-    background-color: $white;
+    background-color: $primary-light-color;
     border: 0.5px solid $gray-light;
-    color: $gray-very-dark;
-
-    &:hover {
-      background-color: darken($white, 15%);
-      color: $gray-very-dark;
-    }
-  }
-
-  &--outline {
-    background-color: transparent;
-    border: 2px solid $white;
     color: $white;
-    font-size: $font-size-4;
-    line-height: 1.6;
-    padding: 0.55rem 1rem;
 
     &:hover {
-      border: 2px solid darken($white, 15%);
-      color: darken($white, 15%);
+      background-color: lighten($primary-light-color, 15%);
+      color: $white;
     }
   }
 
   &--small {
-    border-radius: 3px;
-    font-size: $font-size-9;
-    padding: 0.55rem 0.75rem;
+    font-size: $font-size-7;
+    font-weight: normal;
+    padding: 0.5rem 0.85rem;
   }
 }

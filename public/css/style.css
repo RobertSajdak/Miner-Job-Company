@@ -175,52 +175,46 @@ p {
   border: none;
   border-radius: 5px;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 700;
   line-height: 1.2;
-  padding: 1rem 1.25rem;
+  padding: 1rem 1.5rem;
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
 }
 .c-btn:hover {
+  color: #ffffff;
   text-decoration: none;
 }
-.c-btn__icon {
-  margin-left: 0.5rem;
+.c-btn--primary {
+  background-color: #4f5d6f;
+  color: #ffffff;
+}
+.c-btn--primary:hover {
+  background-color: #71839a;
+  color: #ffffff;
 }
 .c-btn--accent {
   background-color: #ffa40b;
   color: #ffffff;
 }
 .c-btn--accent:hover {
-  background-color: #be7700;
+  background-color: #ffc158;
   color: #ffffff;
 }
 .c-btn--light {
-  background-color: #ffffff;
+  background-color: #7487a2;
   border: 0.5px solid #f8f8f8;
-  color: #444444;
+  color: #ffffff;
 }
 .c-btn--light:hover {
-  background-color: #d9d9d9;
-  color: #444444;
-}
-.c-btn--outline {
-  background-color: transparent;
-  border: 2px solid #ffffff;
+  background-color: #a2afc1;
   color: #ffffff;
-  font-size: 1.5rem;
-  line-height: 1.6;
-  padding: 0.55rem 1rem;
-}
-.c-btn--outline:hover {
-  border: 2px solid #d9d9d9;
-  color: #d9d9d9;
 }
 .c-btn--small {
-  border-radius: 3px;
-  font-size: 0.625rem;
-  padding: 0.55rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  padding: 0.5rem 0.85rem;
 }
 
 .c-heading {
