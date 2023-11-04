@@ -1,0 +1,101 @@
+@use "../01-settings/variables" as *;
+@use "../02-tools/mixins" as *;
+
+.t-promoted {
+  padding-top: $grid-base * 8;
+
+  & .o-row {
+    margin-bottom: $grid-base * 3;
+  }
+
+  &__item {
+    padding-bottom: $grid-base * 6.5;
+    padding-left: $grid-base * 1.5;
+    padding-right: $grid-base * 1.5;
+    padding-top: $grid-base * 6.5;
+
+    &--central {
+      background-image: $yellow-gradient;
+      padding-bottom: $grid-base * 7;
+      padding-left: $grid-base * 1.5;
+      padding-top: $grid-base * 7;
+
+      @include medium-up {
+        background-image: url("../../assets/images/promo-1.jpg");
+        background-repeat: no-repeat;
+        padding-left: $grid-base * 4;
+      }
+
+      @include large-up {
+        padding-left: $grid-base * 7;
+      }
+    }
+
+    &--left {
+      background: #2bb9d5;
+
+      @include medium-up {
+        background: none;
+        background-image: url("../../assets/images/promo-2.jpg");
+        background-repeat: no-repeat;
+        padding-left: $grid-base * 4;
+      }
+
+      @include large-up {
+        padding-left: $grid-base * 7;
+      }
+
+      & .c-btn {
+        margin-top: $grid-base * 2.5;
+      }
+    }
+
+    &--right {
+      background: #f3bbc4;
+      margin-top: $grid-base * 3;
+
+      @include medium-up {
+        background: none;
+        background-image: url("../../assets/images/promo-3.jpg");
+        background-repeat: no-repeat;
+        margin-top: $grid-base * 0;
+        text-align: right;
+      }
+
+      @include large-up {
+        padding-left: $grid-base * 28.5;
+      }
+
+      & .c-btn {
+        margin-top: $grid-base * 2.5;
+      }
+    }
+  }
+
+  &__text {
+    color: $white;
+    font-weight: bold;
+    line-height: $line-height-sm;
+
+    &--size1 {
+      display: block;
+      font-size: $font-size-2;
+      margin-bottom: $grid-base * 3;
+    }
+
+    &--size2 {
+      display: block;
+      font-size: $font-size-3;
+    }
+
+    &--size3 {
+      font-size: $font-size-3;
+    }
+  }
+
+  &__code {
+    & .c-btn {
+      margin-left: $grid-base * 2;
+    }
+  }
+}

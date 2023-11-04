@@ -1,0 +1,17 @@
+@use "../01-settings/variables" as *;
+
+.u-bg-white {
+  background-color: $white;
+}
+
+.u-bg-light {
+  background-color: $gray-light;
+}
+
+.u-text-white {
+  color: $white;
+}
+
+.u-accent {
+  color: $yellow-accent;
+}

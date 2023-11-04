@@ -1,0 +1,25 @@
+@use "../01-settings/variables" as *;
+@use "../02-tools/mixins" as *;
+
+.c-product-selector {
+  display: inline-block;
+
+  &__item {
+    color: $gray-dark-up;
+    display: block;
+    font-size: $font-size-6;
+    margin-bottom: $grid-base * 2;
+    text-transform: uppercase;
+
+    @include large-up {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: $grid-base * 5;
+    }
+
+    &:hover {
+      color: $yellow-accent;
+      font-weight: bold;
+    }
+  }
+}

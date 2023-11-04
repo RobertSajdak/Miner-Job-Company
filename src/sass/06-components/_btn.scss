@@ -1,0 +1,62 @@
+@use "../01-settings/variables" as *;
+
+.c-btn {
+  border: none;
+  border-radius: $border-radius;
+  display: inline-block;
+  font-size: $font-size-6;
+  font-weight: 700;
+  line-height: $line-height-sm;
+  padding: 1rem 1.25rem;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &__icon {
+    margin-left: 0.5rem;
+  }
+
+  &--accent {
+    background-color: $yellow-accent;
+    color: $white;
+
+    &:hover {
+      background-color: darken($yellow-accent, 15%);
+      color: $white;
+    }
+  }
+
+  &--light {
+    background-color: $white;
+    border: 0.5px solid $gray-muted;
+    color: $gray-dark-up;
+
+    &:hover {
+      background-color: darken($white, 15%);
+      color: $gray-dark-up;
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    border: 2px solid $white;
+    color: $white;
+    font-size: $font-size-4;
+    line-height: 1.6;
+    padding: 0.55rem 1rem;
+
+    &:hover {
+      border: 2px solid darken($white, 15%);
+      color: darken($white, 15%);
+    }
+  }
+
+  &--small {
+    border-radius: 3px;
+    font-size: $font-size-9;
+    padding: 0.55rem 0.75rem;
+  }
+}

@@ -1,0 +1,12 @@
+@use "../01-settings/variables" as *;
+
+.c-list {
+  &__item {
+    margin-bottom: 12px;
+    font-size: $font-size-6;
+  }
+
+  &--unstyled {
+    list-style-type: none;
+  }
+}
