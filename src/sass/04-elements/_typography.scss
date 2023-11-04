@@ -1,11 +1,11 @@
 @use "../01-settings/variables" as *;
 
 a {
-  color: $gray-dark-up;
+  color: $gray-very-dark;
   text-decoration: none;
 
   &:hover {
-    color: $gray-dark-up;
+    color: $gray-very-dark;
     text-decoration: underline;
   }
 }

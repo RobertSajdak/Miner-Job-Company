@@ -9,7 +9,7 @@
   }
 
   &__item {
-    color: $gray-dark-up;
+    color: $gray-very-dark;
     display: block;
     font-size: $font-size-6;
     font-weight: bold;
@@ -20,7 +20,7 @@
     width: 100%;
 
     &:hover {
-      color: $gray-dark-up;
+      color: $gray-very-dark;
     }
 
     @include large-up {

@@ -1,49 +1,47 @@
-// Colors ----------------------------------------------------------------
+// Colors ====================================================================
 $black: #000000;
 $white: #ffffff;
 
 $blue-dark: #3e5cc5;
 $blue-light: #d3eafa;
 $blue-text: #3b99e1;
-$blue-gradient: linear-gradient(45deg, #3e5cc5 0%, #5b8af8 100%);
 
-$gray-dark: #797979;
-$gray-dark-up: #444444;
-$gray-light: #f2f3f5;
-$gray-muted: #d1d1d1;
+$gray-basic: #c2c2c2;
+$gray-dark: #898989;
+$gray-light: #f8f8f8;
+$gray-very-dark: #444444;
 
-$green: #60dc64;
+$orange-accent: #ffa40b;
+$primary-color: #4f5d6f;
+$primary-light-color: #7487a2;
 
-$yellow-accent: #f1c40f;
-$yellow-gradient: linear-gradient(0deg, #ebcb55 0%, #f8db7e 100%);
-
-// Text Size -------------------------------------------------------------
+// Text Size =================================================================
 $font-size-base: 1rem; // 1rem = 16px
 $font-size-1: $font-size-base * 3.75; // ~ 60px
-$font-size-2: $font-size-base * 2.5; // ~ 40px
-$font-size-3: $font-size-base * 1.5; // ~ 24px
-$font-size-4: $font-size-base * 1.125; // ~ 18px
-$font-size-5: $font-size-base * 1; // ~ 16px
-$font-size-6: $font-size-base * 0.875; // ~ 14px
-$font-size-7: $font-size-base * 0.75; // ~ 12px
-$font-size-8: $font-size-base * 0.625; // ~ 10px
-$font-size-9: $font-size-base * 0.5625; // ~ 9px
+$font-size-2: $font-size-base * 2.69; // ~ 43px
+$font-size-3: $font-size-base * 1.875; // ~ 30px
+$font-size-4: $font-size-base * 1.5; // ~ 24px
+$font-size-5: $font-size-base * 1.125; // ~ 18px
+$font-size-6: $font-size-base * 1; // ~ 16px
+$font-size-7: $font-size-base * 0.875; // ~ 14px
+$font-size-8: $font-size-base * 0.75; // ~ 12px
+$font-size-9: $font-size-base * 0.625; // ~ 10px
 
-// Letter Spacing (odstęp miedzy literami) ------------------------------------------
-$letter-spacing-reduced: -0.1rem; // zmniejszony odstęp
+// Letter Spacing (odstęp miedzy literami) ===================================
+$letter-spacing-reduced: -0.25rem; // zmniejszony odstęp
 
-// Line Height (wysokość linii) ------------------------------------------
-$line-height-base: 1.5; // linia bazowa
+// Line Height (wysokość linii) ==============================================
+$line-height-base: 1.2; // linia bazowa
 $line-height-sm: 1.2; // linia pomniejszona (small)
-$line-height-lg: 1.8; // linia powiększona (large)
+$line-height-lg: 1.5; // linia powiększona (large)
 
-// Grid (siatka domyślna) ------------------------------------------------
+// Grid (siatka domyślna) ====================================================
 $grid-base: 10px; // bazowy rozmiar siatki
 $gutter: $grid-base * 1.5; // odstęp pomiędzy pionowymi kolumnami, ~ 15px
 
-// Corner rounding (zaokrąglenia narożników) -----------------------------
+// Corner rounding (zaokrąglenia narożników) =================================
 $border-radius: $grid-base * 0.5; // ~ 5px
 
-// Breakpoints RWD (punkty graniczne 'przerwania' dla responsywności) ----
+// Breakpoints RWD (punkty graniczne 'przerwania' dla responsywności) ========
 $bp-medium: "800px"; // dla urządzeń średnich
 $bp-large: "1200px"; // dla urządzeń dużych

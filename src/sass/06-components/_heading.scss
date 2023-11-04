@@ -2,7 +2,7 @@
 @use "../02-tools/mixins" as *;
 
 .c-heading {
-  color: $gray-dark-up;
+  color: $gray-very-dark;
   line-height: $line-height-sm;
   margin-bottom: calc($grid-base / 2);
 

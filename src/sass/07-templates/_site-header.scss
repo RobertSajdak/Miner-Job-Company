@@ -26,7 +26,7 @@
   }
 
   &__number {
-    background-color: $yellow-accent;
+    background-color: $orange-accent;
     border-radius: 50%;
     bottom: 0;
     color: $white;
@@ -41,14 +41,13 @@
   }
 
   &__hero {
-    background: $yellow-gradient;
-    color: $gray-dark-up;
+    background: $gray-light;
+    color: $gray-very-dark;
     padding-bottom: $grid-base * 8;
     padding-top: $grid-base * 8;
 
     @include large-up {
-      background-image: url("../assets/images/png/header-figure.png"),
-        $yellow-gradient;
+      background-image: url("../assets/images/png/header-figure.png");
       background-position-y: 100%;
       background-repeat: no-repeat;
       padding-bottom: $grid-base * 18;

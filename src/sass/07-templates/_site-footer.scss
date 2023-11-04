@@ -2,7 +2,7 @@
 @use "../02-tools/mixins" as *;
 
 .t-site-footer {
-  background-color: $gray-dark-up;
+  background-color: $gray-very-dark;
 
   & .o-row {
     padding-bottom: $grid-base * 1.5;
@@ -73,7 +73,7 @@
 
   &__copy {
     background-color: $gray-light;
-    color: $gray-dark-up;
+    color: $gray-very-dark;
     font-size: $font-size-9;
     padding-bottom: $grid-base * 2.5;
     padding-top: $grid-base * 2.5;

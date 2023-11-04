@@ -5,7 +5,7 @@
   display: inline-block;
 
   &__item {
-    color: $gray-dark-up;
+    color: $gray-very-dark;
     display: block;
     font-size: $font-size-6;
     margin-bottom: $grid-base * 2;
@@ -18,7 +18,7 @@
     }
 
     &:hover {
-      color: $yellow-accent;
+      color: $orange-accent;
       font-weight: bold;
     }
   }

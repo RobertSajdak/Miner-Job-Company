@@ -20,23 +20,23 @@
   }
 
   &--accent {
-    background-color: $yellow-accent;
+    background-color: $orange-accent;
     color: $white;
 
     &:hover {
-      background-color: darken($yellow-accent, 15%);
+      background-color: darken($orange-accent, 15%);
       color: $white;
     }
   }
 
   &--light {
     background-color: $white;
-    border: 0.5px solid $gray-muted;
-    color: $gray-dark-up;
+    border: 0.5px solid $gray-light;
+    color: $gray-very-dark;
 
     &:hover {
       background-color: darken($white, 15%);
-      color: $gray-dark-up;
+      color: $gray-very-dark;
     }
   }
 

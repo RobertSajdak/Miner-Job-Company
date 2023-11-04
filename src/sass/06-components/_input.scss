@@ -12,16 +12,16 @@
   padding: 1rem 1.25rem;
 
   &::placeholder {
-    color: $gray-muted;
+    color: $gray-light;
   }
 
   &::-moz-placeholder {
-    color: $gray-muted;
+    color: $gray-light;
     opacity: 1;
   }
 
   &:-ms-placeholder {
-    color: $gray-muted;
+    color: $gray-light;
   }
 
   &--newsletter {
