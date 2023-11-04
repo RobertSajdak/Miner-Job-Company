@@ -13,6 +13,7 @@
 
     &:hover {
       color: $primary-color;
+      font-weight: bold;
     }
 
     @include large-up {

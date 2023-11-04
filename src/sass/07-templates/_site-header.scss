@@ -2,6 +2,24 @@
 @use "../02-tools/mixins" as *;
 
 .t-site-header {
+  margin-bottom: $grid-base * 2;
+  margin-top: $grid-base * 2;
+
+  &__menu {
+    margin-top: $grid-base * 2;
+
+    @include large-up {
+      margin-top: 0;
+      text-align: right;
+    }
+  }
+
+  & .c-btn {
+    @include large-up {
+      margin-right: 0;
+    }
+  }
+
   &__top {
     background-color: $white;
     padding-bottom: $grid-base * 2;

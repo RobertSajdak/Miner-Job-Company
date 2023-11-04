@@ -319,6 +319,7 @@ p {
 }
 .c-nav__item:hover {
   color: #4f5d6f;
+  font-weight: bold;
 }
 @media (min-width: 1200px) {
   .c-nav__item {
@@ -728,6 +729,24 @@ p {
   padding-top: 25px;
 }
 
+.t-site-header {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.t-site-header__menu {
+  margin-top: 20px;
+}
+@media (min-width: 1200px) {
+  .t-site-header__menu {
+    margin-top: 0;
+    text-align: right;
+  }
+}
+@media (min-width: 1200px) {
+  .t-site-header .c-btn {
+    margin-right: 0;
+  }
+}
 .t-site-header__top {
   background-color: #ffffff;
   padding-bottom: 20px;
