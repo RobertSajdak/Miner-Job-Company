@@ -14,79 +14,37 @@
     }
   }
 
-  & .c-btn {
+  &__nav-button {
     @include large-up {
       margin-right: 0;
     }
   }
 
-  &__top {
-    background-color: $white;
-    padding-bottom: $grid-base * 2;
-
-    @include large-up {
-      padding-bottom: 0;
-    }
-  }
-
-  &__icons {
-    text-align: center;
-
-    @include large-up {
-      text-align: right;
-    }
-  }
-
-  &__icon {
-    display: inline-block;
-    margin-left: $grid-base * 1.5;
-    position: relative;
-  }
-
-  &__number {
-    background-color: $orange-accent;
-    border-radius: 50%;
-    bottom: 0;
-    color: $white;
-    font-weight: bold;
-    font-size: 9px;
-    height: 14px;
-    line-height: 14px;
-    position: absolute;
-    right: -7px;
-    text-align: center;
-    width: 14px;
-  }
-
   &__hero {
-    background: $gray-light;
-    color: $gray-very-dark;
-    padding-bottom: $grid-base * 8;
-    padding-top: $grid-base * 8;
-
-    @include large-up {
-      background-image: url("../assets/images/png/header-figure.png");
-      background-position-y: 100%;
-      background-repeat: no-repeat;
-      padding-bottom: $grid-base * 18;
-      padding-top: $grid-base * 20;
-    }
+    padding-bottom: $grid-base * 7;
+    padding-top: $grid-base * 4;
   }
 
-  &__hero-right {
-    @include large-up {
-      margin-left: $grid-base * 2;
-      padding-left: $grid-base * 46;
-      padding-right: 0;
+  &__hero-image {
+    margin-bottom: $grid-base * 3;
+
+    @include medium-up {
+      margin-bottom: 0;
     }
   }
 
   &__intro-text {
-    font-size: $font-size-3;
-    text-transform: uppercase;
+    color: $primary-color;
+    font-size: $font-size-4;
+    font-weight: bold;
+    letter-spacing: -0.06rem;
   }
 
-  &__cta {
-    margin-top: $grid-base * 4;
+  &__buttons {
+    margin-top: $grid-base * 5;
+  }
+
+  &__first-button {
+    margin-right: $grid-base * 2;
   }
 }
