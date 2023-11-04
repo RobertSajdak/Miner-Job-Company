@@ -21,9 +21,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-ul li {
-  font-size: 1.125rem;
-}
 
 a {
   color: #4f5d6f;
@@ -251,20 +248,11 @@ p {
   text-align: center;
 }
 .c-icon-box__image {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
-.c-icon-box__name {
-  color: #ffa40b;
-  display: block;
-  font-size: 1.125rem;
-  font-weight: bold;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
-.c-icon-box__info {
-  color: #898989;
-  display: block;
-  font-size: 0.875rem;
+.c-icon-box__text {
+  font-size: 0.75rem;
+  margin-top: 10px;
 }
 
 .c-input {
@@ -307,8 +295,14 @@ p {
 }
 
 .c-list__item {
-  margin-bottom: 12px;
-  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.c-list__icon {
+  background: url("../images/angle-right.png") 0 50% no-repeat;
+  display: inline-block;
+  height: 14px;
+  width: 26px;
 }
 .c-list--unstyled {
   list-style-type: none;
