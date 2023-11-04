@@ -1,9 +1,14 @@
 @use "../01-settings/variables" as *;
+@use "../02-tools/mixins" as *;
 
 .c-label {
   display: block;
-  font-size: $font-size-6;
+  font-size: $font-size-5;
   font-weight: bold;
-  margin-bottom: $grid-base * 1.5;
+  letter-spacing: $letter-spacing-reduced;
   text-transform: uppercase;
+
+  @include large-up {
+    font-size: $font-size-3;
+  }
 }
