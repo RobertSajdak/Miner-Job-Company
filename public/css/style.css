@@ -650,7 +650,8 @@ p {
 }
 
 .t-shopper-info {
-  padding-bottom: 70px;
+  background-color: #f8f8f8;
+  padding-bottom: 60px;
   padding-top: 60px;
 }
 .t-shopper-info__item {

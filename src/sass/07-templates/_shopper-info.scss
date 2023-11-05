@@ -2,7 +2,8 @@
 @use "../02-tools/mixins" as *;
 
 .t-shopper-info {
-  padding-bottom: $grid-base * 7;
+  background-color: $gray-light;
+  padding-bottom: $grid-base * 6;
   padding-top: $grid-base * 6;
 
   &__item {
