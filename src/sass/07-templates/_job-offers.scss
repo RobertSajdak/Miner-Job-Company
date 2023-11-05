@@ -2,6 +2,12 @@
 @use "../02-tools/mixins" as *;
 
 .t-job-offers {
+  text-align: center;
+
+  @include medium-up {
+    text-align: left;
+  }
+
   &__intro {
     padding-bottom: $grid-base * 7;
     padding-top: $grid-base * 7;
