@@ -20,10 +20,12 @@
 @use "06-components/label";
 @use "06-components/list";
 @use "06-components/nav";
+@use "06-components/offer";
 @use "06-components/pagination";
 @use "06-components/product-card";
 @use "06-components/product-selector";
 
+@use "07-templates/job-offers";
 @use "07-templates/newsletter";
 @use "07-templates/our-advantages";
 @use "07-templates/our-company";

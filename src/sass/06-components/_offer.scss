@@ -1,0 +1,36 @@
+@use "../01-settings/variables" as *;
+@use "../02-tools/mixins" as *;
+
+.c-offer {
+  background-color: $gray-light;
+  border-radius: $border-radius;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  position: relative;
+
+  @include large-up {
+    padding: 0.8rem 1.6rem;
+  }
+
+  &__arrow {
+    background-color: $primary-color;
+    border-radius: 0 $border-radius $border-radius 0;
+    bottom: 0;
+    display: none;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 65px;
+
+    @include medium-up {
+      display: block;
+    }
+  }
+
+  &__icon {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
