@@ -8,6 +8,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Miner Job Company</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -39,9 +40,10 @@
             <img
               src="./assets/images/hero-image.png"
               alt="obrazek z górnikiem"
+              data-aos="fade-right"
             />
           </div>
-          <div class="o-col o-col--md50">
+          <div class="o-col o-col--md50" data-aos="fade-left">
             <h1 class="c-heading c-heading--level1">Improve your skills</h1>
             <p class="t-site-header__intro-text">
               Check what we offer and join us!
@@ -135,16 +137,21 @@
     <section class="t-job-offers">
       <div class="o-container">
         <div class="o-row o-row--center-y t-job-offers__intro">
-          <div class="o-col o-col--md50 t-job-offers__intro-left">
+          <div
+            class="o-col o-col--md50 t-job-offers__intro-left"
+            data-aos="zoom-in-down"
+          >
             <h2 class="c-heading c-heading--level2">Current Job Openings at</h2>
             <span class="c-label">Miner Job Company</span>
           </div>
           <div class="o-col o-col--md50 t-job-offers__intro-right">
-            <a class="c-btn c-btn--accent" href="#">Check more openings</a>
+            <a class="c-btn c-btn--accent" href="#" data-aos="zoom-in-down"
+              >Check more openings</a
+            >
           </div>
         </div>
         <div class="o-row t-job-offers__offers">
-          <div class="o-col o-col--lg50">
+          <div class="o-col o-col--lg50" data-aos="zoom-in-down">
             <div class="c-offer t-job-offers__item">
               <a href="#"
                 ><strong>Mine Engineer</strong>, Montreal, Canada
@@ -216,7 +223,7 @@
               </a>
             </div>
           </div>
-          <div class="o-col o-col--lg50">
+          <div class="o-col o-col--lg50" data-aos="zoom-in-down">
             <div class="c-offer t-job-offers__item">
               <a href="#"
                 ><strong>Administrative Assistant</strong>, Austin, Texas
@@ -310,7 +317,11 @@
             <a class="c-btn c-btn--accent" href="#">See all our projects</a>
           </div>
           <div class="o-col o-col--md50">
-            <img src="./assets/images/wywrotka.png" alt="ikona wywrotki" />
+            <img
+              src="./assets/images/wywrotka.png"
+              alt="ikona wywrotki"
+              data-aos="flip-right"
+            />
           </div>
         </div>
       </div>
@@ -320,7 +331,11 @@
       <div class="o-container">
         <div class="o-row o-row--center-y">
           <div class="o-col o-col--md50 t-feature__first-col">
-            <img src="./assets/images/koparka.png" alt="ikona koparki" />
+            <img
+              src="./assets/images/koparka.png"
+              alt="ikona koparki"
+              data-aos="flip-right"
+            />
           </div>
           <div class="o-col o-col--md50 u-text-right">
             <h2 class="c-heading c-heading--level2">Best opportunities with</h2>
@@ -340,7 +355,10 @@
     <section class="t-newsletter">
       <div class="o-container">
         <div class="o-row o-row--center-y t-newsletter__contetnt">
-          <div class="o-col o-col--lg50 t-newsletter__heading">
+          <div
+            class="o-col o-col--lg50 t-newsletter__heading"
+            data-aos="fade-right"
+          >
             <span class="t-newsletter__heading-first"
               >Stay updated with our newsletter</span
             >
@@ -349,7 +367,7 @@
             >
           </div>
           <div class="o-col o-col--lg50">
-            <form class="t-newsletter__form" action="">
+            <form class="t-newsletter__form" action="" data-aos="fade-left">
               <input
                 class="c-input t-newsletter__input"
                 type="email"
@@ -437,5 +455,17 @@
         </div>
       </div>
     </footer>
+
+    <!-- JS SCRIPTS for AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 200,
+        duration: 1200,
+        once: true,
+        disable: "mobile",
+      });
+    </script>
+    <script src="./js/all.js"></script>
   </body>
 </html>
