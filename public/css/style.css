@@ -225,7 +225,7 @@ p {
 }
 .c-heading--level2 {
   font-size: 1.875rem;
-  letter-spacing: -0.15rem;
+  letter-spacing: -0.1rem;
   margin-bottom: 5px;
 }
 @media (min-width: 1200px) {
@@ -285,7 +285,7 @@ p {
   display: block;
   font-size: 1.125rem;
   font-weight: bold;
-  letter-spacing: -0.15rem;
+  letter-spacing: -0.1rem;
   text-transform: uppercase;
 }
 @media (min-width: 1200px) {
@@ -479,6 +479,29 @@ p {
   font-weight: bold;
 }
 
+.t-feature {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+@media (min-width: 800px) {
+  .t-feature {
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+}
+.t-feature__first-col {
+  margin-bottom: 30px;
+}
+@media (min-width: 800px) {
+  .t-feature__first-col {
+    margin-bottom: 0;
+  }
+}
+.t-feature__text {
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
 .t-job-offers {
   text-align: center;
 }
@@ -512,62 +535,51 @@ p {
 }
 
 .t-newsletter {
-  background-color: #f8f8f8;
-  padding-bottom: 45px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 45px;
+  background-color: #4f5d6f;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 @media (min-width: 1200px) {
-  .t-newsletter {
-    padding-left: 70px;
-    padding-right: 70px;
-  }
-}
-.t-newsletter__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-.t-newsletter__info {
-  margin-bottom: 30px;
-  width: 100%;
-}
-@media (min-width: 1200px) {
-  .t-newsletter__info {
-    margin-bottom: 0;
-    width: 45%;
-  }
-}
-.t-newsletter__form {
-  width: 100%;
-}
-@media (min-width: 1200px) {
-  .t-newsletter__form {
-    width: 55%;
+  .t-newsletter__content {
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 .t-newsletter__heading {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  .t-newsletter__heading {
+    margin-bottom: 0;
+  }
+}
+.t-newsletter__heading-first {
   display: block;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
-.t-newsletter__subheading {
+.t-newsletter__heading-second {
   display: block;
-  font-size: 0.875rem;
+  font-size: 1.125rem;
+}
+.t-newsletter__form {
+  display: flex;
+  flex-wrap: wrap;
 }
 .t-newsletter__input {
-  width: auto;
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  max-width: 100%;
 }
 @media (min-width: 800px) {
   .t-newsletter__input {
-    width: 72%;
+    flex: 0 0 70%;
+    max-width: 70%;
+    margin-bottom: 0;
   }
-}
-.t-newsletter__submit {
-  border-radius: 0 5px 5px 0;
-  margin-left: -3px;
-  padding: 0.7rem 1.75rem;
 }
 
 .t-our-advantages {
